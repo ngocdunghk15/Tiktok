@@ -1,0 +1,12 @@
+
+// File giúp alias ./src thành ~
+
+{
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "~": "./src"
+        }
+      }]
+    ]
+  }

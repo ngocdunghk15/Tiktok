@@ -1,10 +1,14 @@
 import React from 'react'
+import styles from './Sidebar.module.scss'
+import classNames from 'classnames/bind'
+
+const cx = classNames.bind(styles)
 
 const Sidebar = () => {
   return (
-    <h1>
+    <aside className={cx('wrapper')}>
       Sidebar
-    </h1>
+    </aside>
   )
 }
 
